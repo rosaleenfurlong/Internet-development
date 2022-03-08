@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body {
+    background-color: #A5C9D1;
+    color: #111312;
+	}
+
+#wrapper {
+    margin: auto;
+    max-width: 1500px;
+    border-radius: 25px;
+    border: medium inset #2C473E;
+	}
+
+h1 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+	}
+
+h2 {
+		
+	font-family:
+     Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+	}
+	
+
+header {
+    text-align: center;
+    border: medium solid #000000;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 125px;
+    background-color: #AAE6F5;
+    padding-top: 50px;
+	}
+nav {
+    background-color: #17225F;	
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	overflow:hidden; 
+	
+}
+ 
+
+	.active {
+		background-color: #12D3FB;
+		color:#ffffff;
+		
+	}
+
+li {
+		float: left;
+		border-right:1px solid #111;
+		 
+	}
+	
+li a {
+    background-color: #17225F;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #4D53BF;
+	}
+
+main {
+    background-color: #F3E9E9;
+    width: 59.15%;
+    margin-left: auto;
+	margin-right: auto;
+    border: thin solid #525050;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    float:left;
+		
+	}
+
+aside {
+    background-color: #D4CDCD;
+    border: medium inset #000000;
+    float: right;
+	width: 40%;
+		
+	}
+
+section {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #AFABB4;
+    border: medium dotted #8949AF;
+	}
+
+footer {
+    
+    height: 100px;
+    border: medium solid #3C3A3A;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    clear: both;
+	background-size: cover;
+    background-attachment: scroll;
+	}
+	
+	
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
