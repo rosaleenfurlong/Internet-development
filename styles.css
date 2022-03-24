@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: #A5C9D1;
+    background-color:#D4CDCD;
     color: #111312;
 	}
 
@@ -9,14 +9,15 @@ body {
     margin: auto;
     max-width: 1500px;
     border-radius: 25px;
-    border: medium inset #2C473E;
+    border: none;
+    background-color: #CFEAF0;
 	}
 
 h1 {
     font-style: normal;
     font-variant: normal;
     font-weight: bolder;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
 h2 {
@@ -31,12 +32,13 @@ h2 {
 
 header {
     text-align: center;
-    border: medium solid #000000;
+    border: none;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 125px;
-    background-color: #AAE6F5;
-    padding-top: 50px;
+    background-color: #75D8F0;
+   padding-top: 25px;	   
+	font-size: 25px;
 	}
 nav {
     background-color: #17225F;	
@@ -51,9 +53,8 @@ ul {
  
 
 	.active {
-		background-color: #12D3FB;
-		color:#ffffff;
-		
+    background-color: #12D3FB;
+    color: #E6ECF2;
 	}
 
 li {
@@ -67,7 +68,7 @@ li a {
     padding: 14px 25px;
     text-decoration: none;
     display: block;
-    color: #ffffff;
+    color: #E8E7F3;
     text-align: center;
 }
 
@@ -75,12 +76,13 @@ li a:hover {
     background-color: #4D53BF;
 	}
 
+
 main {
     background-color: #F3E9E9;
-    width: 59.15%;
+    width: 75%;
     margin-left: auto;
 	margin-right: auto;
-    border: thin solid #525050;
+    border: none;
     padding-top: 2px;
     padding-right: 2px;
     padding-bottom: 0px;
@@ -91,41 +93,35 @@ main {
 
 aside {
     background-color: #D4CDCD;
-    border: medium inset #000000;
+    border:none;
     float: right;
-	width: 40%;
+	width: 24.73%;
 		
 	}
 
 section {
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    background-color: #AFABB4;
-    border: medium dotted #8949AF;
+    width: 100%;
+    background-color: #D8D0D0;
+   
 	}
-
+.section2 img {
+	padding-left: 100px;
+	padding-right: 100px;
+}
 footer {
-    
     height: 100px;
-    border: medium solid #3C3A3A;
+    border: none;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     clear: both;
-	background-size: cover;
+    background-size: cover;
     background-attachment: scroll;
+    background-color: #75D8F0;
+	text-align: center;
+	padding-top: 30px;
 	}
 	
-	
+tr {
+    background-color: #E1E6F1;
+}
 
-
-	
-
-	
-	
-	
-	
-	
-	
-	
